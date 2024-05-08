@@ -14,7 +14,7 @@ public class Digits
 		int n = num;
 		while(num > 0 ){
 			digitList.add(0, n%10);
-			n = n%10;
+			n = n/10;
 		}
 	    
 	}
